@@ -1,4 +1,4 @@
-# RemWasteManagement_RestAPI – Automated API Test Suite
+# RestAPI – Automated API Test Suite
 
 This project is an automated API test suite built using **REST-assured** and **TestNG**. It validates basic CRUD operations against the public `https://crudcrud.com` RESTful API.
 
@@ -41,7 +41,7 @@ All tests depend on data created dynamically at runtime and stored in a local fi
 ---
 
 ## 📂 Project Structure
-RemWasteManagement_RestAPI/
+RestAssured_API/
 │
 ├── src/
 │ └── APITests/
@@ -62,8 +62,8 @@ RemWasteManagement_RestAPI/
 ### Step 1: Clone the repository
 
 ```bash
-git clone https://github.com/your-username/RemWasteManagement_RestAPI.git
-cd RemWasteManagement_RestAPI
+git clone https://github.com/your-username/RestAssured_API.git
+cd RestAssured_API
 
 Step 2: Set the basePath in Base.java
 Update the API token in RestAssured.basePath with your crudcrud.com API token:
